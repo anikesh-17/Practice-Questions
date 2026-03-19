@@ -1,3 +1,12 @@
-CMakeLists.txt
-main.cpp
-cmake-build-debug
+# CLion / IntelliJ
+.idea/
+
+# Build files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# Executables
+*.exe
+*.out
+*.o
