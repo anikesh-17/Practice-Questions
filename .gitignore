@@ -10,3 +10,6 @@ CMakeCache.txt
 *.exe
 *.out
 *.o
+
+CMakeLists.txt
+main.cpp
