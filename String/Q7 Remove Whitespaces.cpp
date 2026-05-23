@@ -3,12 +3,12 @@ using namespace std;
 
 int main() {
     string str = "Anikesh Sharma";
-    int words = 1;
+    string result = "";
 
     for(char ch : str) {
-        if(ch == ' ')
-            words++;
+        if(ch != ' ')
+            result += ch;
     }
 
-    cout << "Words: " << words;
+    cout << result;
 }
